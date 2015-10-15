@@ -3,11 +3,12 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.zprofile ~/.zprofile
 
 if [ -e ~/dotfiles/.vim/bundle ]; then
+  echo .vim exist
 else
   mkdir -p ~/dotfiles/.vim/bundle
 fi
 
-ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.vim ~/
 
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/dotfiles/oh-my-zsh
 git clone https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git ~/dotfiles/oh-my-zsh-powerline-theme
