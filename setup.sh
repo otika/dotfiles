@@ -9,6 +9,7 @@ else
 fi
 
 ln -s ~/dotfiles/.vim ~/
+ln -s ~/dotfiles/oh-my-zsh ~/.oh-my-zsh
 
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/dotfiles/oh-my-zsh
 git clone https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme.git ~/dotfiles/oh-my-zsh-powerline-theme
